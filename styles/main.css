@@ -1,6 +1,7 @@
 body {
   margin:0;
-  background:#8189fd;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(https://i.imgur.com/wVrC5iw.jpg);
 }
 
 header img{
@@ -35,7 +36,7 @@ header img{
 
 .section1 {
     display:inline-block;
-    border:1px solid black;
+    border:5px solid black;
     width: 300px;
     padding:50px 0;
     background: white;
@@ -44,9 +45,29 @@ header img{
 
 .section2 {
   display:inline-block;
-  border:1px solid black;
+  border:5px solid black;
   width: 300px;
   padding:50px 0;
+  font-size: 18px;
   background: white;
   border-radius: 3px;
+}
+
+.inputName{
+  width:250px;
+  padding:10px;
+  border-radius: 3px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.playbtn{
+  margin-top: 8px;
+  background:#5cb85c;
+  color:white;
+  width:inherit;
+  padding: 12px;
+  font-size: 18px;
+  border: 2px solid black;
+  border-radius: 3px;
+  cursor: pointer;
 }
