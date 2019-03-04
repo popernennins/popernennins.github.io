@@ -32,10 +32,21 @@ header img{
     display:table-cell;
     vertical-align:middle;
 }
-section {
+
+.section1 {
     display:inline-block;
-    border:8px solid black;
-    width: 450px;
+    border:1px solid black;
+    width: 300px;
     padding:50px 0;
     background: white;
+    border-radius: 3px;
+}
+
+.section2 {
+  display:inline-block;
+  border:1px solid black;
+  width: 300px;
+  padding:50px 0;
+  background: white;
+  border-radius: 3px;
 }
