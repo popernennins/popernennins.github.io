@@ -41,6 +41,10 @@ header img{
     display:table-cell;
     vertical-align:middle;
 }
+.cell2 {
+    display:table-cell;
+    vertical-align:middle;
+}
 
 .section1 {
     margin-top: 50px;
@@ -57,7 +61,7 @@ header img{
   display:inline-block;
   border:2px solid black;
   width: 300px;
-  padding:50px 0;
+  padding:50px 6px;
   font-size: 18px;
   background: white;
   border-radius: 3px;
@@ -80,4 +84,14 @@ header img{
   border: 2px solid black;
   border-radius: 3px;
   cursor: pointer;
+}
+
+.changelog{
+  background:#BAFFAA;
+  padding: 10px;
+  text-align: left;
+}
+
+.changes{
+  margin-top: 10px;
 }
