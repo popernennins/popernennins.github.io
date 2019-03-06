@@ -10,7 +10,11 @@
       <img src=https://i.imgur.com/Totm2z0.png</img>
     </header>
 
-    <div class="table">
+
+    <div id="loader"></div>
+
+
+    <div class="table" id="frontpage">
         <div class="cell">
             <section class=section1>
               <input class=inputName type="text" autocomplete="off" placeholder="Enter your name" maxlength="20">
@@ -20,16 +24,14 @@
                 <option value="shoegaze">Rock</option>
                 <option value="shoegaze">Country</option>
               </select>
-              <button onClick="doesntWork()" id="playbtn">Play</button>
+              <button onClick="play()" id="playbtn">Play</button>
             </section>
             <section class=section2>
               <p>Musictionary is a replica of skribbl.io, using albums instead of everyday objects.</p>
               <div class=changelog>Whats new?
                 <ul>
-                  <li class=changes>Added genre picker (more will come)</li>
-                  <li class=changes>Adjusted design</li>
-                  <li class=changes>Added alert for pressing play button. One day it'll work.</li>
-                  <li class=changes>Changed size of these boxes, fixed left box's position</li>
+                  <li class=changes>Play button does something!</li>
+                  <li class=changes>Added loader</li>
                 </ul>
               </div>
             </section>
